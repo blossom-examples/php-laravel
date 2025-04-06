@@ -21,40 +21,25 @@ php artisan serve
 
 Visit `http://localhost:8000` in your browser to see the demo application.
 
-## Building for Production
-
-Before deploying, you need to build the frontend assets:
-
-```bash
-# Install Node.js dependencies
-npm install
-
-# Build frontend assets
-npm run build
-```
-
-The built assets will be in the `public/build` directory. Make sure to commit these files to your repository as they are required for production deployment.
-
-## Features
-
-- Joke management system (create, read, update, delete)
-- Random joke generator
-- Modern UI with Tailwind CSS
-- Ready for production deployment
-
 <details>
 <summary>Additional Information</summary>
 
 ### Environment Variables
-- `APP_NAME`: Application name (default: Laravel)
+
 - `APP_ENV`: Environment (local, production)
 - `APP_DEBUG`: Enable debug mode (true/false)
-- `DB_CONNECTION`: Database connection (pgsql, mysql, sqlite)
-- `DB_HOST`: Database host
-- `DB_PORT`: Database port
-- `DB_DATABASE`: Database name
-- `DB_USERNAME`: Database username
-- `DB_PASSWORD`: Database password
+- `DATABASE_URL`: Database connection (pgsql, mysql, sqlite). Eg: `postgres://postgres@127.0.0.1:5432/jokes_dev`
+
+## Building Assets for Deployment
+
+Before deploying, you need to build the frontend assets:
+
+```bash
+npm install
+npm run build
+```
+
+The built assets will be in the `public/build` directory. Make sure to commit these files to your repository as they are required for production deployment. Note, the repo already has committed assets. So you only have to rebuild the assets if you have asset changes.
 
 ### API Endpoints
 ```bash
