@@ -15,40 +15,6 @@
     </a>
     </header>
 
-    <div class="grid md:grid-cols-2 gap-8 mb-12">
-    <!-- Quick Start Card -->
-    <div class="bg-white rounded-lg shadow-md p-6">
-      <h2 class="text-2xl font-semibold mb-4">Quick Start</h2>
-      <div class="text-left space-y-4">
-      <p class="text-gray-600">Your Laravel application includes:</p>
-      <ul class="list-disc list-inside space-y-2 text-gray-600">
-        <li>Modern Tailwind CSS styling</li>
-        <li>Blade templating engine</li>
-        <li>Eloquent ORM</li>
-        <li>Ready for production deployment</li>
-      </ul>
-      </div>
-    </div>
-
-    <!-- Resources Card -->
-    <div class="bg-white rounded-lg shadow-md p-6">
-      <h2 class="text-2xl font-semibold mb-4">Next Steps</h2>
-      <div class="text-left space-y-4">
-      <p class="text-gray-600">Helpful resources to get started:</p>
-      <ul class="list-disc list-inside space-y-2 text-gray-600">
-        <li><a href="https://laravel.com/docs" target="_blank" class="text-blue-600 hover:text-blue-800">Laravel
-          Documentation</a></li>
-        <li><a href="https://tailwindcss.com" target="_blank" class="text-blue-600 hover:text-blue-800">Tailwind CSS
-          Docs</a></li>
-        <li><a href="https://laravel.com/api" target="_blank" class="text-blue-600 hover:text-blue-800">Laravel
-          API</a></li>
-        <li><a href="https://laracasts.com" target="_blank" class="text-blue-600 hover:text-blue-800">Laracasts</a>
-        </li>
-      </ul>
-      </div>
-    </div>
-    </div>
-
     <!-- Random Joke Section -->
     <div class="bg-white rounded-lg shadow-md p-8 mb-8">
     <h2 class="text-2xl font-semibold mb-6">Random Joke</h2>
